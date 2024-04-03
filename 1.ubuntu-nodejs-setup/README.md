@@ -1,4 +1,4 @@
-### Setup Nodejs Inside Ubuntu Container
+## Setup Nodejs Inside Ubuntu Container
 
 The provided steps outline the manual configuration process for setting up a basic Node.js environment within a Docker container based on Ubuntu 18.04.
 
@@ -18,7 +18,7 @@ Hello from ubuntu...
 ENV => berke
 ```
 
-##### Dockerfile
+#### Dockerfile
 
 This Dockerfile automates the setup of a Node.js environment within a Docker container based on Ubuntu 18.04.
 
@@ -34,13 +34,13 @@ ENV name=berke
 CMD ["node", "index.js"]
 ```
 
-##### Build Image
+#### Build Image
 
 ```bash
 docker build . -t ubuntu-nodejs-setup
 ```
 
-##### Check Images
+#### Check Images
 
 ```bash
 docker images
@@ -51,13 +51,13 @@ REPOSITORY            TAG           IMAGE ID       CREATED         SIZE
 ubuntu-nodejs-app     latest        41b9c7295e21   3 seconds ago   207MB
 ```
 
-##### Run Container
+#### Run Container
 
 ```bash
 docker run --name ubuntu-nodejs-c ubuntu-nodejs-app
 ```
 
-##### Check Containers
+#### Check Containers
 
 ```bash
 docker ps -a
