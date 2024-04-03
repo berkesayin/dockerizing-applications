@@ -3,11 +3,11 @@
 #### Dockerfile
 
 ```dockerfile
-FROM php:8-apache
-WORKDIR /var/www/html/index.php
+FROM php:7-apache
+WORKDIR /var/www/html
 COPY src/ .
 EXPOSE 80
-CMD ["apache2-foreground"]
+CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
 ```
 
 #### Build Image
