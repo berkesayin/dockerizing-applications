@@ -30,6 +30,7 @@ Here's a list of examples available in this repository:
 [**11.compose-wordpress**](11.compose-wordpress/): Docker Compose setup for WordPress. <br />
 [**13.welcome-to-docker-app**](13.welcome-to-docker-app/): Docker example for a React application. <br />
 [**14.compose-todo-app-2**](14.compose-todo-app-2/): Docker Compose example for another Todo application. <br />
+[**15.compose-bind-mounts**](15.compose-bind-mounts/): Bind Mount example using Docker Compose. <br />
 
 Each example comes with a Dockerfile, Docker Compose configuration file (if applicable), and instructions on building and running the Docker images.
 
