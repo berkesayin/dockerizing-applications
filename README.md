@@ -26,9 +26,10 @@ Here's a list of examples available in this repository:
 [**7.react-app**](7.react-app/): Docker example for a React.js application. <br />
 [**8.svelte-app**](8.svelte-app/): Shows Docker usage for a Svelte application. <br />
 [**9.compose-node-server**](9.compose-node-server/): Docker Compose example for setting up a Node.js server. <br />
-[**10.compose-todo-app**](10.compose-todo-app/): Docker Compose example for a ToDo application. <br />
+[**10.compose-todo-app**](10.compose-todo-app/): Docker Compose example for a Todo application. <br />
 [**11.compose-wordpress**](11.compose-wordpress/): Docker Compose setup for WordPress. <br />
 [**13.welcome-to-docker-app**](13.welcome-to-docker-app/): Docker example for a React application. <br />
+[**14.compose-todo-app-2**](14.compose-todo-app-2/): Docker Compose example for another Todo application. <br />
 
 Each example comes with a Dockerfile, Docker Compose configuration file (if applicable), and instructions on building and running the Docker images.
 
