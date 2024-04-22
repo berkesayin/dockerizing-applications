@@ -31,6 +31,7 @@ Here's a list of examples available in this repository:
 [**13.welcome-to-docker-app**](13.welcome-to-docker-app/): Docker example for a React application. <br />
 [**14.compose-todo-app-2**](14.compose-todo-app-2/): Docker Compose example for another Todo application. <br />
 [**15.compose-bind-mounts**](15.compose-bind-mounts/): Bind Mount example using Docker Compose. <br />
+[**16.docker-init**](16.docker-init/): Example for creating Docker files with docker init command. <br />
 
 Each example comes with a Dockerfile, Docker Compose configuration file (if applicable), and instructions on building and running the Docker images.
 
